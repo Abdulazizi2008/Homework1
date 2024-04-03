@@ -1,0 +1,132 @@
+.logo {
+  padding-top: 12px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  padding: 0 20px;
+  .nav-item {
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 100%;
+    padding: 0 8px;
+    color: #434343;
+
+    &:hover {
+      color: #ff6900;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      background-color: #ff6900;
+      height: 3px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+
+.part {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  padding: 0 20px;
+  padding-left: 730px;
+}
+@media (max-width: 1440px) {
+  /* // lg */
+}
+
+@media (max-width: 976px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+
+  .open .nav-items {
+    left: 0;
+  }
+
+  .open {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+
+  .open .nav-items {
+    left: 0;
+  }
+
+  .open {
+    box-shadow: none;
+  }
+}
+@media (max-width: 480px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+
+  .open .nav-items {
+    left: 0;
+  }
+
+  .open {
+    box-shadow: none;
+  }
+}
