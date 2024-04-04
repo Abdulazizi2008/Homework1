@@ -29,6 +29,28 @@ const FeaturedProduct = () => {
               </div>
             </div>
           </div>
+          <div className="cards">
+            <div className="card">
+              <img src="./images/file1.webp" alt="" />
+              <h4>Redmi Note 13 5G</h4>
+              <button>Learn more </button>
+            </div>
+            <div className="card">
+              <img src="./images/file2.png" alt="" />
+              <h4>Redmi Watch 4</h4>
+              <button>Learn more </button>
+            </div>
+            <div className="card">
+              <img src="./images/file3.png" alt="" />
+              <h4>Redmi Buds 5 Pro</h4>
+              <button>Learn more </button>
+            </div>
+            <div className="card">
+              <img src="./images/file3.png" alt="" />
+              <h4>Redmi Buds 5</h4>
+              <button>Learn more </button>
+            </div>
+          </div>
         </section>
       </div>
     </div>
