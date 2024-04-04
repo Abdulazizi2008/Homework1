@@ -2,7 +2,7 @@ import "./hero.scss";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="sss">
       <section className="hero">
         <div className="container">
           <div className="all">

@@ -2,7 +2,7 @@ import "./header.scss";
 
 const Header = () => {
   return (
-    <div>
+    <div className="general">
       <div className="container">
         <nav>
           <a href="#" className="logo">

@@ -1,6 +1,14 @@
 .logo {
   padding-top: 12px;
 }
+.general {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10px;
+}
 nav {
   display: flex;
   align-items: center;
